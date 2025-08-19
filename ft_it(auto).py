@@ -144,7 +144,7 @@ import pandas as pd
 load_dotenv()
 
 os.environ["OPENAI_API_KEY"] = "dummy"
-os.environ["GEMINI_API_KEY"] = "AIzaSyAMP3_pGsIadNytYMbZL7nz6htVL5v8W30"
+os.environ["GEMINI_API_KEY"] = "GEMINI_API_KEY"
 
 # LLM
 llm = LLM(
